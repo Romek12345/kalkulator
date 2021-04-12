@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>kalkulator></title>
+    </head>
+    <body> 
+        <section>
+            <from>
+                <fieldset>
+                    <legend>Pierwsza liczba</legend>
+                    <input type="number" id= "value1" />
+                </fieldset>
+                <fieldset>
+                    <legend>druga liczba</legend>
+                    <input type="number" id = "value2" />
+                </fieldset>
+                <fieldset>
+                    <legend>operacja</legend>
+                    <select id="operator">
+                        <option  value="+">+</option>
+                        <option  value="-">-</option>
+                        <option  value="*">*</option>
+                        <option  value="/">/</option>
+                        <option  value="^">^</option>
+                        <option  value="v">v</option>
+                        <option  value="!">!</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <input id = "calculate" type="button" value="=" />
+                </fieldset>
+               <fieldset>
+                    <legend>wynik</legend>
+                    <div id="result"></div> 
+                </fieldset>
+ 
+            </from>
+        </section>
+        <script src="js.js"></script>
+    </body>
+</html>
