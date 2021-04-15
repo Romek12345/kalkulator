@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title>kalkulator></title>
+        <title>Kalkulator></title>
+        <meta charset="UTF-8"/>
+        <meta name="Calculations" content="index, follow" />
+        <link rel="icon" href="" />
+        <meta name="viewport" content="width=device-width" initial-scale=1.0 />
+        <link rel="stylesheet"  href="style.css" />
+        
     </head>
     <body> 
+        <header>
+            <h3>Kalkulator</h3>
+            <p>suma, różnica, iloczyn, iloraz, potęga, pierwiastek, silnia </p>
+        </header>
         <section>
             <from>
                 <fieldset>
@@ -12,12 +21,12 @@
                     <input type="number" id= "value1" />
                 </fieldset>
                 <fieldset>
-                    <legend>druga liczba</legend>
+                    <legend>Druga liczba</legend>
                     <input type="number" id = "value2" />
                 </fieldset>
                 <fieldset>
-                    <legend>operacja</legend>
-                    <select id="operator">
+                    <legend>Wybierz operacje</legend>
+                    <select class="opera" id="operator">
                         <option  value="+">+</option>
                         <option  value="-">-</option>
                         <option  value="*">*</option>
@@ -28,15 +37,18 @@
                     </select>
                 </fieldset>
                 <fieldset>
-                    <input id = "calculate" type="button" value="=" />
+                    <input class="rowna" id="calculate" type="button" value="=" />
                 </fieldset>
                <fieldset>
-                    <legend>wynik</legend>
+                    <legend>Wynik równania</legend>
                     <div id="result"></div> 
                 </fieldset>
  
             </from>
         </section>
         <script src="js.js"></script>
+        <footer>
+            <p>#liczwpamieci</p>
+        </footer>
     </body>
 </html>
