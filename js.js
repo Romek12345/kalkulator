@@ -77,3 +77,27 @@ function potega(value1, value2) {
 function pierwiastek(value1, value2) {
   return Math.pow(value1, 1/value2)
 }
+
+                      /* SORTOWANIE BABELKOWE 
+                      confirm(myTable);
+                      function BubbleSort(myTable) {
+                        var change, temp;
+                        do {
+                          change = false;
+                          for (var i = myTable.length; i > 0; i--) {
+                            if (myTable[i] < myTable[i - 1]) {
+                              temp = myTable[i - 1];
+                              myTable[i - 1] = myTable[i];
+                              myTable[i] = temp;
+                              change = true;
+                            }
+                          }
+                        } while (change);
+                        return myTable;
+                      }
+
+                      var myTable = [23, 5, 14, 9]
+                      alert(myTable)
+                      console.log(BubbleSort(myTable));
+                      prompt(myTable);
+                      */
